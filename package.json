@@ -1,0 +1,21 @@
+{
+  "name": "fastify-cc",
+  "version": "1.0.0",
+  "description": "REST-API built with fastify web framework in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "type": "module",
+  "author": "Abdulrahmaan Hussein",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.19.1",
+    "fastify-swagger": "^4.8.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
